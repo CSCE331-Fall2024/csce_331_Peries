@@ -1,0 +1,232 @@
+.not_ai {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("assets/background1.jpg");
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.content{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* landing page */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.navbar .menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu li{
+    margin: 0 5px;
+}
+
+.navbar .menu a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+}
+
+.navbar .menu a:hover{
+    color: darkgoldenrod;
+}
+
+.page_title{
+    font-size:xx-large;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    text-align: center;
+    color:rgb(194, 197, 197);
+}
+
+.bio{
+    h2{
+        color:rgb(194, 197, 197);
+    }
+    p{
+        color:rgb(194, 197, 197);
+    }
+
+    padding-right: 65%;
+    padding-left: 10%;
+}
+
+.socials{
+    h3{
+        color:rgb(194, 197, 197);
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        color:rgb(194, 197, 197);
+    }
+    padding-top:2%;
+    padding-left: 10%;
+}
+
+/* qualifications */
+.experience{
+    padding-top:0%;
+    p{
+        padding-left: 30%;
+        padding-right: 30%;
+        border-radius: 50;
+        color:rgb(194, 197, 197);
+    }
+    embed{
+        padding-top: 10%;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
+
+/* Service */
+
+.service{
+    ul{
+        align-items: center;
+    }
+    li{
+        list-style: none;
+    }
+    img{
+        border-radius: 25px;
+        height: 225px;
+        width: 225px;
+        float: left;
+        padding-right: 5%;
+    }
+    div{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+        height: 225px;
+    }
+    p{
+        /* padding-left: 10%; */
+        padding-top:112px;
+        color:rgb(194, 197, 197);
+    }
+    a{
+        color:rgb(194, 197, 197);
+    }
+}
+
+/* Portfolio */
+.projects{
+    h3{
+        /* display:flex; */
+        color: rgb(194, 197, 197);
+        text-align: center;
+        /* padding-left:35%; */
+    }
+    ul{
+        align-items: center;
+    }
+
+    li{
+        padding-top: 2%;
+        list-style: none;
+    }
+
+    p{
+        /* padding-left:25%;
+        padding-right: 25%; */
+        text-align: center;
+        color:rgb(194, 197, 197);
+    }
+
+    a{
+        color:rgb(194, 197, 197);
+    }
+}
+
+/* AI */
+/* Basic styling for the page */
+.AI body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+.AI header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styling */
+.AI nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.AI nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.AI nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.AI nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.AI nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+.AI main {
+    padding: 20px;
+}
+
+.AI section {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+.AI footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.AI footer blockquote {
+    margin: 10px 0;
+    font-style: italic;
+    color: #ccc;
+}
