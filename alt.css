@@ -1,0 +1,212 @@
+.not_ai {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("assets/web_background2.jpg");
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* navbar */
+.navbar {
+    height: 100%; /* Full height */
+    width: 250px; /* Sidebar width */
+    position: fixed; /* Fixed position */
+    left: 0;
+    top: 0;
+    background-color: #333; /* Sidebar background color */
+    transition: width 0.3s; /* Smooth animation for width */
+    ul{
+        list-style-type: none;
+        padding: 0%;
+    }
+    a {
+        display: block;
+        padding: 15px 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        transition: background-color 0.3s; /* Smooth hover effect */
+
+    }
+
+    a:hover {
+        background-color: #53b0cc; /* Change background on hover */
+    }
+  }
+
+  /* homepage */
+
+  .content {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-left: 250px; /* Same width as sidebar */
+    padding: 20px;
+    h1{
+        color:rgb(91, 168, 212);
+        text-align: center;
+    }
+    .bio{
+        h2{
+            text-align: center;
+        }
+        background-color: lightblue;
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: 5%;
+        border-radius: 20px;
+        padding: 10%;
+        color: aliceblue;
+    }
+    .socials{
+        background-color: lightblue;
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: 2%;
+        border-radius: 20px;
+        padding: 1%;
+        h3{
+            color: aliceblue;
+            text-align: center;
+            text-decoration-line: underline;
+        }
+        ul{
+            padding-right: 3%;
+            text-align: center;
+            list-style: none;
+            a{
+                color: aliceblue;
+                text-decoration: none;
+            }
+            a:hover{
+                color: rgb(32, 171, 226);
+            }
+            li{
+                display: inline-block;
+            }
+            
+        }
+    }
+  }
+
+  /* switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: lightblue;
+    transition: .4s;
+    border-radius: 34px;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+
+  input:checked + .slider {
+    background-color: lightblue;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+
+
+  /* qualifications */
+
+  .experience{
+    display: flex;
+    height: 100vh;
+
+    p{
+        flex: 1;
+        background-color: aliceblue;
+        border-radius: 20px;
+        /* float: left; */
+        padding: 5%;
+        margin-right: 5%;
+        size: 10%;
+        overflow-y: auto;
+        a{
+            color: black;
+        }
+        a:hover{
+            color: #53b0cc;
+        }
+    }
+    iframe{
+        flex: 2;
+        padding: 20px;
+        border:none;
+    }
+  }
+
+  /* Portfolio */
+  .projects{
+    list-style: none;
+    color: aliceblue;
+    li{
+        background-color:#53b0cc;
+        padding: 1%;
+        margin: 2%;
+        border-radius: 20px;
+        a{
+            color:aliceblue;
+        }
+        a:hover{
+            color: lightblue;
+        }
+    }
+  }
+
+  /* Service */
+  .service{
+    list-style: none;
+    img{
+        margin-left: 43%;
+        border-radius: 20px;
+    }
+    p{
+        text-align: center;
+        a{
+            color: #333;
+        }
+        a:hover{
+            color: lightblue;
+        }
+
+    }
+  }
+
+  
